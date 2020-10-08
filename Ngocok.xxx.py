@@ -1,7 +1,7 @@
 # -*- coding UTF-8 -*-
-#  Author : Iqbal Dev
-#  Tools : Geli2 Efbeh
-#  Versi : 0.3
+#  Author : King-Coli
+
+#  Versi  : 0.3
 
 import requests, json
 from brute import brute
@@ -43,7 +43,7 @@ def user_dev():
 	bag4 = jumlah / 2 + bag1
 	
 
-	for dev in range(1, jumlah+1):
+	for dev in range(1, jumlah+500):
 		users1.append(userz+'.'+str(dev))
 
 	# for dev in range(1, bag):
@@ -120,7 +120,7 @@ if __name__ == '__main__':
 			divev()
 			deviv()
 
-		elif pil == '3':
+		
 			try:
 				print " \n\n \033[97;1m        +++[ \033[96;1m Tools Versi 0.3 \033[97;1m ]+++" 
 				print " \n               \033[93;1m Keunggulan:\n\n   \033[97;1m   Lebih Power Full dibanding yg V.01 \n      bisa mengisi lebih dari 1 password  \n"
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except KeyboardInterrupt:
 				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
-				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
+		
 		else:
 			print "\n\033[90;1m Pilih yang Bener lah Kampprett.. "
 	except KeyboardInterrupt:
